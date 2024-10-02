@@ -1,0 +1,14 @@
+clearTarget-ifNotTargetAlive
+targetNearest-petAttack-autoShot-ifNotHaveTarget-ifNotInRaid --In raid the autoTarget or targetNearest is dangerous action
+autoShot-petAttack-ifHaveTarget-ifNotTargetInMeleeRange-ifNotShooting
+autoAttack-petAttack-ifHaveTarget-ifTargetInMeleeRange
+huntersMark-ifNotTargetHasDebuff=huntersMark-ifNotTargetInMeleeRange
+--bestialWrath-ifNotInCooldown=bestialWrath-ifPetInCombat --If beast talent
+serpent-ifNotTargetInMeleeRange-ifNotTargetHasDebuff=serpent-ifNotTargetType=Elemental,Mechanical --The serpent is option
+wingClip-ifNotTargetHasDebuff=wingClip-ifTargetInMeleeRange
+raptor-ifTargetInMeleeRange
+--intimidate-ifTargetIsCasting --If beast talent
+
+--Need Quiver addons
+multi-ifNotInCooldown=multi-ifReloading-ifNotTargetInMeleeRange
+trueshot-ifReloading-ifNotTargetInMeleeRange
