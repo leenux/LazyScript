@@ -5,3 +5,6 @@
 ### hunter add trueshot and Reloading
 #### example:
 `trueshot-ifReloading-ifNotTargetInMeleeRange`
+
+#### dependence
+Hunter Reloading featrue depend [Quiver](https://github.com/SabineWren/Quiver).
