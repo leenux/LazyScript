@@ -1,0 +1,6 @@
+--/ls autoTarget on/off autoTarget and autoAttack
+equipMainHand=Skinning Knife-ifNotItemInCooldown=Waters of Vision-ifNotEquipped=Skinning Knife
+equipOffHand=Waters of Vision-ifNotItemInCooldown=Waters of Vision-ifNotEquipped=Waters of Vision
+use=Waters of Vision-ifNotItemInCooldown=Waters of Vision-ifEquipped=Waters of Vision
+equipMainHand=Withered Root Staff-ifItemInCooldown=Waters of Vision-ifNotEquipped=Withered Root Staff
+--equipOffHand=xxx-ifItemInCooldown=Waters of Vision-ifNotEquipped=xxx
